@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --twitter-blue: #1da1f2;
+  --font-color: #0f1419;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  color: var(--font-color);
+}
+
+body, input, textarea, button {
+  font: 400 1rem Roboto, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}
+
+/* page: timeline */
+
+.layout {
+  margin: 0 auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+
+.sidebar {
+  padding: 1.5rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.content {
+  border-left: 1px solid #ebeef0;
+  border-right: 1px solid #ebeef0;
+}
