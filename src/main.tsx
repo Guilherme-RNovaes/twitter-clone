@@ -5,6 +5,7 @@ import { Bell, Hash, House, Envelope, BookmarkSimple, FileText, User, DotsThreeC
 import "./global.css"
 
 import twitterLogo from './assets/logo-twitter.svg'
+import Tweet from './components/Tweet'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
@@ -57,9 +58,14 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
             <label htmlFor="tweet">
               <img src="https://github.com/Guilherme-RNovaes.png" alt="Guilherme Novaes" />
               <textarea id="tweet" placeholder="What's happening?" />
-              <button type='submit'>Tweet</button>
             </label>
+            <button type='submit'>Tweet</button>
           </form>
+          <div className="separator" />
+          <Tweet />
+          <Tweet />
+          <Tweet />
+          <Tweet />
         </main>
       </div>
     </div>
