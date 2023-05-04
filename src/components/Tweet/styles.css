@@ -29,3 +29,34 @@
   font-size: 0.875rem;
   color: var(--sub-color);
 } 
+
+.tweet .tweet-content p {
+  line-height: 1.25;
+}
+
+.tweet .tweet-content .tweet-content-footer {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 0.75rem;
+}
+
+.tweet .tweet-content .tweet-content-footer button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: transparent;
+  border: 0;
+  font-size: 0.875rem;
+  color: var(--sub-color);
+  transition: all ease .2s;
+}
+
+.tweet .tweet-content .tweet-content-footer button:hover {
+  color: var(--twitter-blue);
+}
+
+.tweet .tweet-content .tweet-content-footer button svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
